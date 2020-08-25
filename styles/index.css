@@ -153,7 +153,7 @@ header {
   justify-content: space-between;
   background-color: #1a1a1a;
   padding: 3rem 7rem 5rem;
-  margin-bottom: 5%;
+  margin-bottom: 4%;
 }
 header a {
   color: #fff;
@@ -187,7 +187,50 @@ nav a {
   font-size: 1.1rem;
 }
 
-/* Body */
+/* Body ---- Landing page */
+.landing-page {
+  font-size: 1.1rem;
+}
+.description {
+  padding: 0 10rem 3.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid #efefef;
+}
+.description img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 0.2rem;
+}
+.description p {
+  line-height: 1.5rem;
+  width: 60%;
+}
+
+.signup {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+}
+.signup p {
+  width: 50%;
+  line-height: 1.5rem;
+  text-align: center;
+}
+.signup a {
+  color: #fff;
+  background-color: #1db954;
+  padding: 1rem 2rem;
+  border-radius: 0.8rem;
+  margin-top: 2rem;
+  box-shadow: 1px 2px 7px 3px #e6e6e6;
+}
+
+/* Body ---- About page */
 .body-wrapper {
   padding: 0 15rem;
 }
