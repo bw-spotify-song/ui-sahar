@@ -1,8 +1,6 @@
 # ui-sahar
 
-1: HTML / CSS
-
-HTML/CSS site is deployed. Student laid out all elements of the design. Note: there may be visible user interface inconsistencies across the project, but all elements are on the page.
+1: HTML/CSS site is deployed. Student laid out all elements of the design. Note: there may be visible user interface inconsistencies across the project, but all elements are on the page.
 
 2: Responsiveness Deployed site is responsive to width of browser. All elements are visible at any width of the screen. There is a usable layout at desktop 1000px+ and mobile 500px-.
 
