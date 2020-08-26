@@ -154,7 +154,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   background-color: #1a1a1a;
-  padding: 3rem 7rem 5rem;
+  padding: 3rem 7rem;
   margin-bottom: 4%;
 }
 header a {
@@ -172,7 +172,7 @@ header a {
 }
 i.fab {
   color: #1db954;
-  font-size: 4rem;
+  font-size: 5rem;
   margin-right: 5%;
 }
 nav {
@@ -186,7 +186,7 @@ nav {
 
 nav a {
   margin-left: 5%;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   padding: 0.5rem 0;
   height: 1rem;
 }
