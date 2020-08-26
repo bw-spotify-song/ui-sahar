@@ -197,16 +197,18 @@ nav a:hover {
 
 /* Footer */
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: #1a1a1a;
-  height: 10vh;
+  height: 13vh;
   text-align: center;
-  color: #afafaf;
   font-size: 2rem;
-  width: 100%;
-  margin-top: 5rem;
+}
+#fakeFooter {
+  margin: 5% 0;
 }
 .footLink {
   margin-right: 3%;
@@ -324,7 +326,7 @@ footer {
   width: 100%;
 }
 
-/* Contact */
+/* Contact Page */
 
 .aboutGrid {
   display: flex;
