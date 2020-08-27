@@ -135,7 +135,7 @@ a {
 body {
   font-family: "Open Sans", sans-serif;
   color: #37352f;
-  color: #fff;
+  color: #eee;
   background-color: black;
 }
 
@@ -159,7 +159,7 @@ header {
   margin-bottom: 4%;
 }
 header a {
-  color: #fff;
+  color: #eee;
 }
 .header-logo {
   display: flex;
@@ -246,18 +246,27 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  /* border-bottom: 2px solid #efefef; */
+  border-bottom: 2px solid #1a1a1a;
 }
 .description img {
   width: 25%;
   height: 25%;
   border-radius: 0.2rem;
 }
-.description p {
-  line-height: 1.5rem;
+.description div {
   width: 60%;
 }
-
+.description p {
+  line-height: 1.5rem;
+}
+.description .bold {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+.description.second {
+  margin-top: 3rem;
+}
 .signup {
   width: 100%;
   display: flex;
@@ -276,7 +285,7 @@ footer {
   padding: 1rem 2rem;
   border-radius: 0.8rem;
   margin-top: 5rem;
-  box-shadow: 1px 2px 7px 3px #e6e6e6;
+  box-shadow: 2px 2px 7px 1px #3c3c3c;
 }
 .signup a:hover {
   background-color: #37a866;
