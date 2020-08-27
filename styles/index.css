@@ -149,6 +149,7 @@ h3 {
   font-weight: bold;
 }
 /* Header */
+
 header {
   display: flex;
   flex-direction: row;
@@ -222,11 +223,10 @@ footer {
   font-size: 1.5rem;
   width: 150%;
   background-color: #1a1a1a;
-  border: 3px solid #000;
-  color: #fff;
+  color: #1db954;
   text-align: center;
   border-radius: 6px;
-  padding: 5% 0;
+  padding: 10% 0;
   position: absolute;
   z-index: 1;
   bottom: 120%;
@@ -246,11 +246,11 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 2px solid #efefef;
+  /* border-bottom: 2px solid #efefef; */
 }
 .description img {
-  width: 20rem;
-  height: 20rem;
+  width: 25%;
+  height: 25%;
   border-radius: 0.2rem;
 }
 .description p {
@@ -259,7 +259,7 @@ footer {
 }
 
 .signup {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -288,13 +288,18 @@ footer {
 }
 .info h1 {
   margin-bottom: 4%;
+  letter-spacing: 1px;
 }
 .info p {
-  line-height: 1.2rem;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 5%;
 }
 
 .people h3 {
   margin: 4% 0;
+  color: #1db954;
+  letter-spacing: 1px;
 }
 .indiv {
   width: 15vw;
@@ -324,31 +329,6 @@ footer {
   flex-flow: row wrap;
   justify-content: flex-start;
   width: 100%;
-}
-
-@media (max-width: 800px) {
-  header {
-    padding: 3rem;
-  }
-  nav {
-    width: 60%;
-  }
-  .description {
-    padding: 0 4.5rem 3.5rem;
-  }
-  .signup a {
-    margin-top: 4rem;
-  }
-  .description img {
-    width: 17rem;
-    height: 17rem;
-  }
-  .description p {
-    width: 50%;
-  }
-  .signup {
-    padding-bottom: 1rem;
-  }
 }
 
 /* Contact Page */
@@ -424,7 +404,7 @@ footer {
 }
 .aboutInfo a {
   margin: 2% 0;
-  width: 50%;
+  width: 80%;
 }
 .aboutInfo i:hover {
   color: #1db954;
@@ -471,6 +451,45 @@ footer {
 }
 
 /* Media */
+@media (max-width: 800px) {
+  header {
+    padding: 3rem;
+    width: 100%;
+  }
+  nav {
+    width: 60%;
+  }
+  .description {
+    padding: 0 4.5rem 3.5rem;
+  }
+  .signup a {
+    margin-top: 4rem;
+  }
+  .description img {
+    width: 17rem;
+    height: 17rem;
+  }
+  .description p {
+    width: 50%;
+  }
+  .signup {
+    padding-bottom: 1rem;
+  }
+  /* Contact */
+  .aboutName {
+    width: 150%;
+  }
+  .aboutIMG {
+    width: 30%;
+  }
+  .aboutInfo a {
+    width: 125%;
+  }
+  .aboutGrid .item {
+    margin: 4% 0;
+  }
+}
+
 @media (max-width: 500px) {
   body {
     max-width: 100vw;
